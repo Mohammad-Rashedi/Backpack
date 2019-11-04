@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item >
+
+        <shape android:shape="oval">
+            <stroke android:color="#00D9FF" android:width="10dp" />
+            <solid android:color="#BDBABA" />
+            <!--            <padding android:bottom="50dp" />-->
+            <size android:width="150dp" android:height="150dp" />
+
+        </shape>
+    </item>
+    <item android:state_active="true" android:drawable="@drawable/backpack" />
+</selector>
