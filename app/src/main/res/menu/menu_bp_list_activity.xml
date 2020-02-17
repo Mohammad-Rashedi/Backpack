@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+
+    <item android:id="@+id/clearAll"
+        android:icon="@drawable/back_button_toolbar"
+    android:title="پاک کردن تمام کوله پشتی ها"
+        app:showAsAction="never"
+        >
+
+    </item>
+</menu>

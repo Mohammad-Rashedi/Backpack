@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="30dp"
+    app:cardBackgroundColor="@color/colorBackgroundItemBPItemViewUnChecked"
+    android:id="@+id/cardViewItemViewItem"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/radioButtonItemList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp">
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/TextViewItemCountItemView"
+            android:text="0"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:fontFamily="@font/dima"
+            android:maxLines="1"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:textColor="@color/colorPrimaryDark"
+
+            >
+
+        </TextView>
+<TextView
+    android:gravity="center"
+    android:id="@+id/item_chooser_item_name_ItemView"
+    android:layout_weight="5"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="sasadasdasd"
+    android:textSize="25dp"
+    android:fontFamily="@font/dima"
+    android:maxLines="1"
+    android:layout_margin="5dp"
+    android:layout_gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/colorPrimaryDark"
+
+    ></TextView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/item_chooser_item_image_itemVIew"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/others"
+            android:layout_gravity="start|center"/>
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

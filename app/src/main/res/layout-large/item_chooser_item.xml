@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="30dp"
+    app:cardBackgroundColor="@color/colorBackgroundItemBP">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+    android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonMinus"
+            android:background="@drawable/minus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_weight="7"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/item_chooser_item_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/others"
+            android:layout_margin="10dp"
+
+            android:layout_gravity="start|center"/>
+        <TextView
+
+          android:gravity="center"
+          android:id="@+id/item_chooser_item_name"
+          android:layout_weight="5"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:text="sasadasdasd"
+          android:textSize="20dp"
+          android:fontFamily="@font/dima"
+          android:layout_margin="10dp"
+          android:layout_gravity="center"
+          android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+          ></TextView>
+        <TextView
+            android:id="@+id/TextViewItemCount"
+            android:text="0"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:fontFamily="@font/dima"
+            android:maxLines="1"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+        <ImageButton
+
+            android:id="@+id/imageButtonPlus"
+            android:background="@drawable/add_button_vector"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

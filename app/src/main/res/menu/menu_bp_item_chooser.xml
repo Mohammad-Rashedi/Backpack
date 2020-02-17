@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+
+    <item android:id="@+id/clearAll"
+        android:icon="@drawable/back_button_toolbar"
+    android:title="پاک کردن تمام آیتم ها"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:id="@+id/deleteBPChooser"
+        android:title="پاک کردن"
+        android:icon="@drawable/delete_bp_item_chooser"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/saveBPChooser"
+        android:title="ذخیره"
+        android:icon="@drawable/bp_list_save"
+        app:showAsAction="always" />
+</menu>

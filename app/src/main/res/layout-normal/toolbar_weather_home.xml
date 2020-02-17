@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+android:elevation="10dp"
+
+    android:textAlignment="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:text="آب و هوا"
+        android:layout_gravity="center"
+        android:id="@+id/toolbar_weather_home_title"
+        android:textSize="30dp"
+        android:fontFamily="@font/dima"
+        android:textColor="@color/textColorPrimary"
+        android:maxLines="1"
+        />
+</androidx.appcompat.widget.Toolbar>
