@@ -11,6 +11,7 @@
         android:layout_weight="50"
         android:text="TextViewName"
         android:gravity="center"
+        android:textSize="20dp"
         />
 
     <TextView
@@ -19,13 +20,47 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="TextView"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textSize="20dp"
+        />
     <TextView
         android:id="@+id/textViewCondition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="TextView"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textSize="20dp"
+        />
 
+<!--    <ImageButton-->
+<!--        android:focusable="false"-->
+<!--        android:focusableInTouchMode="false"-->
+<!--        android:descendantFocusability="blocksDescendants"-->
+<!--        android:id="@+id/imageButtonPicked"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/okcircle"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:padding="15dp"-->
+<!--        />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButtonUnPicked"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/cancelcircle"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:padding="15dp"-->
+<!--        />-->
 </LinearLayout>

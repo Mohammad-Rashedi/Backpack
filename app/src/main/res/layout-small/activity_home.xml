@@ -1,97 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bachgroundcolor_lightblue"
-    tools:context=".HomeActivity">
+    tools:context=".View.HomeActivity"
+    android:id="@+id/homeActivityCoordinatorLayout"
+
+>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="293dp"
-        android:layout_height="463dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginLeft="59dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginRight="59dp"
-        android:layout_marginBottom="168dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+android:layout_weight="10"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
 
-        <FrameLayout
+        >
+
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageButton
-                android:id="@+id/imageButtonBackpack"
-                android:layout_width="261dp"
-                android:layout_height="80dp"
-
-                android:adjustViewBounds="true"
-                android:background="@drawable/rect_blue"
-                android:padding="10dp"
-                android:scaleType="fitStart"
-                android:src="@drawable/backpackhome"
-                tools:layout_editor_absoluteX="75dp"
-                tools:layout_editor_absoluteY="155dp" />
-
-            <TextView
-                android:id="@+id/textViewBackpack"
-                android:layout_width="138dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center_vertical|right"
-                android:layout_marginRight="10dp"
-                android:fontFamily="@font/dimaubuntu"
-                android:gravity="center"
-                android:text="کوله پشتی"
-                android:textSize="30dp"
-                app:layout_constraintBottom_toBottomOf="@+id/imageButtonBackpack"
-                app:layout_constraintEnd_toEndOf="@+id/imageButtonBackpack"
-                app:layout_constraintHorizontal_bias="0.804"
-                app:layout_constraintStart_toStartOf="@+id/imageButtonBackpack"
-                app:layout_constraintTop_toTopOf="@+id/imageButtonBackpack" />
-        </FrameLayout>
-
-        <FrameLayout
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/windowBackground"
+            app:cardCornerRadius="125dp"
+android:layout_marginBottom="10dp"
+            app:cardElevation="10dp"
+            >
+                    <ImageButton
+                        android:id="@+id/imageButtonBackpack"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ripple_home"
+                        android:src="@drawable/backpackhome_new"
+                        android:padding="0dp"
+                        android:scaleType="fitStart"
+                        android:layout_margin="0dp"
+                        android:clipToPadding="false"
+                        />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageButton
-                android:id="@+id/imageButtonWeather"
-                android:layout_width="261dp"
-                android:layout_height="80dp"
-
-                android:adjustViewBounds="true"
-                android:background="@drawable/rect_blue_weather"
-                android:padding="10dp"
-                android:scaleType="fitStart"
-                android:src="@drawable/weatherhome"
-                tools:layout_editor_absoluteX="75dp"
-                tools:layout_editor_absoluteY="267dp" />
-
-            <TextView
-                android:id="@+id/textViewWeather"
-                android:layout_width="138dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center_vertical|right"
-                android:layout_marginRight="10dp"
-                android:fontFamily="@font/dimaubuntu"
-                android:gravity="center"
-                android:text="آب و هوا"
-                android:textSize="30dp"
-                app:layout_constraintBottom_toBottomOf="@+id/imageButtonWeather"
-                app:layout_constraintEnd_toEndOf="@+id/imageButtonWeather"
-                app:layout_constraintHorizontal_bias="0.804"
-                app:layout_constraintStart_toStartOf="@+id/imageButtonWeather"
-                app:layout_constraintTop_toTopOf="@+id/imageButtonWeather" />
-
-        </FrameLayout>
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/windowBackground"
+            app:cardCornerRadius="125dp"
+            app:cardElevation="10dp"
+            android:layout_marginTop="10dp"
+            >
+        <ImageButton
+            android:id="@+id/imageButtonWeather"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/weatherhome_new"
+            android:background="@drawable/ripple_home"
+            android:padding="0dp"
+            android:scaleType="fitStart"
+            android:clipToPadding="false"
+            android:layout_margin="0dp"
+            />
+        </androidx.cardview.widget.CardView>
 
 
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:background="@drawable/rect_blue"-->
+<!--        -->
+<!--        />-->
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

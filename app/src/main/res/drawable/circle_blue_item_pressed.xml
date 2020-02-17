@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <Item android:state_pressed="true" android:drawable="@drawable/index2"/>-->
+    <!--    <Item android:state_active="true"-->
+    <!--        android:drawable="@drawable/index2" >-->
 
+    <!--    </Item>-->
     <item >
 
         <shape android:shape="oval">
             <stroke android:color="#00D9FF" android:width="3dp" />
             <solid android:color="#D5D5D5" />
+            <!--            <padding android:bottom="50dp" />-->
             <size android:width="150dp" android:height="150dp" />
+
         </shape>
     </item>
 

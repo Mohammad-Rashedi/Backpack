@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true" android:drawable="@drawable/circle_blue_item_pressed"/>
+    <!--    <Item android:state_active="true"-->
+    <!--        android:drawable="@drawable/index2" >-->
 
+    <!--    </Item>-->
     <item >
 
         <shape android:shape="oval">
@@ -12,5 +15,6 @@
 
         </shape>
     </item>
+
     <item android:state_active="true" android:drawable="@drawable/backpack" />
 </selector>

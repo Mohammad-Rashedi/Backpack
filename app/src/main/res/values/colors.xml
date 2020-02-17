@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#0D47A1</color>
+    <color name="colorPrimaryDark">#000838</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorAccentDialog">#072758</color>
+    <color name="textColorPrimary">#CBD1FF</color>
+    <color name="textColorSecondary">#95A1FF</color>
+    <color name="navigationBarColor">#000838</color>
+    <color name="windowBackground">#ECECEC</color>
+    <color name="sourceCardViewBackground">#DAD9D9</color>
+    <color name="sourceTextBackground">#979797</color>
+    <color name="colorBackground">#D81B60</color>
+    <color name="colorBackgroundFloating">#D81B60</color>
+    <color name="colorBackgroundDialog">#FFD1FF</color>
+    <color name="colorBackgroundItemBP">#90CAF9</color>
+    <color name="colorDialogNewItem">#42A5F5</color>
+    <color name="colorBackgroundItemBPItemViewChecked">#CBD1FF</color>
+    <color name="colorBackgroundItemBPItemViewUnChecked">#FCC3C3</color>
+    <color name="colorBackgroundItemBPItemChooser">#CBD1FF</color>
+
+    <color name="colorAccentDialogDeleteBP">#CBD1FF</color>
+    <color name="textColorPrimaryDialogDeleteBP">#FF1F6E</color>
+    <color name="backgroundDialogDeleteBP">#000838</color>
+
+
+
 </resources>

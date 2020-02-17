@@ -4,106 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BackpackView.BackPackViewActivity">
-
+    tools:context=".View.Backpack.BackPackItemListActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+
         >
+    <include
+        layout="@layout/toolbar_bp_view"
+        android:id="@+id/toolbar_bp_view" />
 
 
-        <TextView
-        android:id="@+id/textViewBackpackNameView"
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewBackpackItemListListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="5"
         android:layout_gravity="center"
-
-
-        android:fontFamily="@font/dimaubuntu"
-        android:text="name"
-        android:textAlignment="center"
-        android:textSize="30dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"        />
-        <TextView
-        android:id="@+id/textViewHelpItemCondition"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        android:fontFamily="@font/dimaubuntu"
-        android:text="برای تغییر وضعیت هر آیتم، روی آن نگه دارید"
-        android:textAlignment="center"
-        android:textSize="30dp"
-            />
 
-        <ListView
 
-        android:id="@+id/myListView"
-        android:layout_width="408dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="17dp"
-            >
-        </ListView>
-        <Button
-            android:id="@+id/buttonOkInBPView"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/okcircle"
-            android:layout_gravity="center"
-            />
-
+    </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
-<!--<TextView-->
-<!--android:id="@+id/textViewBackpackNameView"-->
-<!--android:layout_width="match_parent"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:layout_gravity="center"-->
-<!--android:layout_marginTop="48dp"-->
-<!--android:layout_marginBottom="633dp"-->
-<!--android:width="50dp"-->
-<!--android:height="50dp"-->
-<!--android:fontFamily="@font/dimaubuntu"-->
-<!--android:text="name"-->
-<!--android:textAlignment="center"-->
-<!--android:textSize="30dp"-->
-<!--    />-->
-
-
-<!--<TextView-->
-<!--android:id="@+id/textViewHelpItemCondition"-->
-<!--android:layout_width="match_parent"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:layout_gravity="center"-->
-<!--android:layout_marginTop="126dp"-->
-<!--android:layout_marginBottom="555dp"-->
-<!--android:width="50dp"-->
-<!--android:height="50dp"-->
-<!--android:fontFamily="@font/dimaubuntu"-->
-<!--android:text="برای تغییر وضعیت هر آیتم، روی آن نگه دارید"-->
-<!--android:textAlignment="center"-->
-<!--android:textSize="30dp"-->
-<!--    />-->
-
-<!--<ListView-->
-
-<!--android:id="@+id/myListView"-->
-<!--android:layout_width="408dp"-->
-<!--android:layout_height="514dp"-->
-<!--android:layout_marginTop="200dp"-->
-<!--android:layout_marginEnd="3dp"-->
-<!--android:layout_marginRight="3dp"-->
-<!--android:layout_marginBottom="17dp"-->
-<!--    >-->
-
-<!--</ListView>-->

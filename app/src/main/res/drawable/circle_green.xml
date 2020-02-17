@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     <item android:state_pressed="true" android:drawable="@drawable/circle_green_pressed" />
     <item android:state_active="true" android:drawable="@drawable/addcircle" />
     <item >
+
     <shape android:shape="oval">
         <stroke android:color="#00FF41" android:width="10dp" />
         <solid android:color="#E4E4E4" />
+        <!--            <padding android:bottom="50dp" />-->
         <size android:width="150dp" android:height="150dp" />
+
     </shape>
     </item>
 

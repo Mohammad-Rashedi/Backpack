@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true" android:drawable="@drawable/rect_blue_pressed"/>
+    <!--    <Item android:state_active="true"-->
+    <!--        android:drawable="@drawable/index2" >-->
 
+    <!--    </Item>-->
     <item >
+
         <shape android:shape="rectangle">
             <stroke android:color="#1E90FF" android:width="3dp" />
             <solid android:color="#FFF2BE" />
             <corners android:radius="5dp" />
+<!--            <corners android:radius="10dp" />-->
+            <!--            <padding android:bottom="50dp" />-->
             <size android:width="250dp" android:height="60dp" />
+
         </shape>
+
+
+
     </item>
 </selector>

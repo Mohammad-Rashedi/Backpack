@@ -7,40 +7,38 @@
 
     <application
         android:allowBackup="true"
-        android:hardwareAccelerated="false"
         android:icon="@mipmap/launcherbpi"
         android:label="@string/app_name"
-        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".myWeather.WeatherShowActivityWorldActivity"
+        <activity android:name="com.example.backpack.View.Weather.WeatherHomeActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".myWeather.WeatherShowActivityIran"
-            android:configChanges="orientation"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".myWeather.WeatherHomeActivity"
-            android:configChanges="orientation"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeToolbar"/>
         <activity
-            android:name=".BackpackView.BackPackViewActivity"
+            android:name="com.example.backpack.View.Backpack.BackPackItemListActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeToolbar"/>
         <activity
-            android:name=".BackpackItemChooserActivity"
+            android:name="com.example.backpack.View.Backpack.BackpackItemChooserActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeToolbar"/>
         <activity
-            android:name=".BackpackListActivity"
+            android:name="com.example.backpack.View.Backpack.BackpackListActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeToolbar"/>
         <activity
-            android:name=".HomeActivity"
+            android:name="com.example.backpack.View.HomeActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeToolbar"
+            />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.example.backpack.View.SplashActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait">
             <intent-filter>

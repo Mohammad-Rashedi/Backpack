@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
+    tools:context=".View.SplashActivity"
     >
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="278dp"
+        android:layout_height="550dp"
         android:layout_marginStart="66dp"
         android:layout_marginLeft="66dp"
         android:layout_marginTop="90dp"

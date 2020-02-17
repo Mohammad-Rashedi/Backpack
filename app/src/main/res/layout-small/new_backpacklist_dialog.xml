@@ -4,13 +4,14 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/newBackpackListDialog"
+    style="@style/MyAlertDialogStyle"
     >
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="51dp"
-        android:fontFamily="@font/dimaubuntu"
+        android:fontFamily="@font/dima_font"
         android:gravity="center"
         android:text="نام لیست خود را وارد کنید"
         android:textSize="30dp"/>
@@ -19,7 +20,7 @@
         android:id="@+id/imageView2"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        app:srcCompat="@drawable/backpack"
+        app:srcCompat="@drawable/backpackhome"
         android:layout_gravity="center"/>
 
     <EditText
@@ -29,7 +30,7 @@
         android:ems="10"
         android:hint="نام کوله پشتی"
         android:inputType="textPersonName"
-        android:fontFamily="@font/dimaubuntu"
+        android:fontFamily="@font/dima_font"
         android:gravity="center"
 
         />
